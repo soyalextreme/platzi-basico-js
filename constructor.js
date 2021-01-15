@@ -3,9 +3,6 @@
     Date: 15 -January-2020
 */
 
-
-
-// DEPENDENCIES
 const readline = require("readline");
 
 // Global Variable Array For Cars
@@ -55,9 +52,6 @@ const main = () => {
         })
     }
 
-
-    
-    
     rl.on("close", ()=>{
         // On close event.
         for(car of allCars){
@@ -65,10 +59,8 @@ const main = () => {
         }
     })
 
-
     init();
 }
-
 
 // main process
 main();
